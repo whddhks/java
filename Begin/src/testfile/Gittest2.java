@@ -11,20 +11,20 @@ public class Gittest2 {
 			switch(month) {
 			
 			case 1, 12, 2 :
-				System.out.println("겨울입니다.");
+				System.out.println(month+"월은 겨울입니다.");
 				break;
 			case 3, 4, 5 :
-				System.out.println("봄입니다.");
+				System.out.println(month+"월은 봄입니다.");
 				break;
 			case 6, 7, 8 :
-				System.out.println("여름입니다.");
+				System.out.println(month+"월은 여름입니다.");
 				break;
 			case 9, 10, 11 :
-				System.out.println("가을입니다.");
+				System.out.println(month+"월은 가을입니다.");
 				break;
 				}
 		}else
-			System.out.println("없는 월 입니다.");
+			System.out.println(month+"월은 없는 월 입니다.");
 		//switch case문
 		//월 입력해서 
 		//계절
@@ -32,7 +32,7 @@ public class Gittest2 {
 		//3,4,5 봄  
 		//6,7,8 여름
 		//9,10,11 가을 
-		
+		//if말고 맨끝에 default 써도됨다
 		
 
 	}
