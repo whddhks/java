@@ -11,6 +11,8 @@ public class Gittest1 {
 			level=sc.nextInt();
 			System.out.println(level+"학년 입니다.");
 			System.out.println("---점수를 입력하세요---");
+			String s="'합격'입니다.";
+			String s2="'불합격'입니다.";
 			float score=sc.nextFloat();
 			
 			if (score>100 || score<0) {
@@ -19,17 +21,17 @@ public class Gittest1 {
 			}
 			if (level<=3) {
 				if (score<60) {
-					System.out.println("'불합격'입니다.");
+					System.out.println(s2);
 			}else 
-					System.out.println("'합격'입니다.");
+					System.out.println(s);
 			}
 			if (level>=4) {
 				if(score<70) {
-					System.out.println("'불합격'입니다.");
+					System.out.println(s2);
 			}else
-				System.out.println("'합격'입니다.");
+				System.out.println(s);
 			}
-		}while (level!=9);
+		}while (level>=9);
 			System.out.println("졸업쫌 하세요");
 		//점수입력 0~100
 		//학년입력
