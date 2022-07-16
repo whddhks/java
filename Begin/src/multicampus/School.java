@@ -54,12 +54,22 @@ public class School {
 				System.out.println(count2+"명 등록 완료하였습니다.");
 			}
 		}
-		
-		
-		
-		
-		
 	}//-------------------------------
+	public static void printAll() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("--모든 학생과 교사의 정보를 출력합니다.--");
+		System.out.println("1.학생 정보 출력 / 2.교사 정보 출력");
+		int num1=0;
+		num1=sc.nextInt();
+		if (num1==1) {
+			for (int i=0;i<arr.length;i++) {
+				
+			}
+		}
+		
+	}
+			
+	
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
