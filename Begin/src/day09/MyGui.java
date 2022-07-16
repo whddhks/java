@@ -18,6 +18,7 @@ public class MyGui extends JFrame {
 	JTextArea ta1, ta2;
 	
 	public MyGui() { //기본생성자
+		
 		super("::MyGui program v1.1::");//타이틀에 문자열에 올라간다.
 		p=new JPanel();
 		add(p);//JFrame의 중앙에 판넬이 붙는다.
