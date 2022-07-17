@@ -81,7 +81,10 @@ public class School {
 		
 		}
 	}
-			
+	public void search() {
+		
+	}
+	
 	
 
 	public static void main(String[] args) {
@@ -104,9 +107,9 @@ public class School {
 					//반복문 돌면서 출력한다
 				 School.printAll();
 				break;
-			case 3://검색
+			case 3://검색 search
 				break;
-			case 4://삭제	
+			case 4://삭제	delete
 				break;
 			}
 		}while(num!=9);
