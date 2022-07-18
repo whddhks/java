@@ -26,6 +26,16 @@ public class Student {
 	public void setName(String name) {
 		this.name = name;
 	}
+	@Override
+	public boolean equals(Object obj) {
+		if (obj instanceof Student) {
+			Student stu=(Student) obj;
+			boolean bool=stu.name.equals(this.name) && stu.id==this.id;
+			return bool;
+		}else
+			return false;
+		
+	}
 
 	
 	
