@@ -79,12 +79,14 @@ public class StirngTest {
 		//String toUpperCase/toLowerCase
 		
 		//String[] split(String regex): 특정패턴 문자열을 기준으로 문자열을 쪼개어 배열에 담아 반환한다.
-		String[] tokens=s5.split("#");
+		String[] tokens=s5.split("#");//중요하다
 		System.out.println("tokens.lenght: "+tokens.length);
 		//100 tom 문자 이렇게 3개
 		System.out.println("tokens[0]= "+tokens[0]);
 		System.out.println("tokens[1]= "+tokens[1]);
 		System.out.println("tokens[2]= "+tokens[2]);
+		
+		
 		
 		
 		
