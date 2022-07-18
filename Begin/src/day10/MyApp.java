@@ -15,8 +15,9 @@ public class MyApp extends JFrame{
 		p.setLayout(new BorderLayout());
 		
 		p.add(pN,"North");
-		p.add(ta,"Center");
 		
+		p.add(ta,"Center");
+		JScrollPane sp=new JScrollPane(ta);
 		
 		pN.setBackground(Color.RED);
 		bt1=new JButton("Login");
