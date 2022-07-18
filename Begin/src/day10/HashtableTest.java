@@ -1,5 +1,5 @@
 package day10;
-/*Map계열- Hashtable, HashMap, Properties
+/*Map계열- Hashtable, HashMap, Properties(자바 웹에서 많이 씀)
  * - Object유형을 저장할 수 있으며
  * - key와 value를 매핑하여 저장한다.
  * - 데이터가 75% 차면 자동으로 저장 영역을 확대한다.
@@ -13,7 +13,7 @@ public class HashtableTest {
 
 	public static void main(String[] args) {
 		Hashtable<String, Integer> h1=new Hashtable<>();
-		//key Sering value Integer
+		//key String value Integer
 		h1.put("생년", 2012);
 		h1.put("나이", Integer.valueOf(20));
 		h1.put("연봉", 5000);
