@@ -37,7 +37,7 @@ public class MySeachEngine extends JFrame{
 		b3.addActionListener(me);
 		b4.addActionListener(me);
 		
-		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 	}
 	class MyEventHandler implements ActionListener {
@@ -45,6 +45,7 @@ public class MySeachEngine extends JFrame{
 			Object obj=e.getSource();
 			if (obj==b1) {
 				b1.setBackground(Color.green);
+				
 			}else if (obj==b2) {
 				b2.setBackground(Color.yellow);
 			}else if (obj==b3) {
