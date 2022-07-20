@@ -7,18 +7,18 @@ import java.io.*;
  * charset을 맞투는 기능이 있다.
  * 
  * */
-public class InputStreamReaderTest {
+public class InputStreamReaderTest2 {
 
 	public static void main(String[] args) throws IOException{
-		//String fname= "C:\\myjava\\4조자바2.txt";
-		String fname="src/day13/InputStreamTeset2.java";//기본적으로 UTF-8
+		String fname= "C:\\myjava\\4조자바2.txt";
+		//String fname="src/day13/InputStreamTeset2.java";//기본적으로 UTF-8
 		File file=new File(fname);//파일 크기 알아볼때
 		long fsize=file.length();//파일의 크기를 반환한다.
 		System.out.println("파일크기:" +fsize+"bytes");
 		
 		//FileReader fr=new FileReader(file);
 		FileInputStream fis= new FileInputStream(file);
-		InputStreamReader fr=new InputStreamReader(fis,"UTF-8");
+		InputStreamReader fr=new InputStreamReader(fis,"EUC-KR");
 		
 		OutputStreamWriter ow=new OutputStreamWriter(System.out,"UTF-8");
 		
