@@ -1,13 +1,13 @@
 package day13;
 import java.io.*;
-/*InpuStreamReader
+/*InputStreamReader
  * = 2byte(문자) 기반 스트림
  * = 브릿지 스트림
  * 1byte로 읽어드린 데이터를 2byte로 조합하새 읽어들인다.
  * charset을 맞투는 기능이 있다.
  * 
  * */
-public class FileReaderTest2 {
+public class InputStreamReaderTest {
 
 	public static void main(String[] args) throws IOException{
 		//String fname= "C:\\myjava\\4조자바2.txt";
