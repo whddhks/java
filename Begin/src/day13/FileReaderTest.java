@@ -8,7 +8,8 @@ import java.io.*;
 public class FileReaderTest {
 
 	public static void main(String[] args) throws IOException{
-		String fname="src/day13/InputStreamTeset2.java";
+		String fname= "C:\\myjava\\4조자바2.txt";
+		//String fname="src/day13/InputStreamTeset2.java";
 		File file=new File(fname);//파일 크기 알아볼때
 		long fsize=file.length();//파일의 크기를 반환한다.
 		System.out.println("파일크기:" +fsize+"bytes");
