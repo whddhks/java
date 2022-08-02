@@ -2,6 +2,7 @@ package day12;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.io.*;
 //class My
 /**
  * 퐁시겅을 가진 사람들이 이용할수 있는 애플리케이샨
@@ -85,7 +86,21 @@ public class PongApp extends JFrame{
 				
 			}else if (obj==btsave) {
 				//setTitle("save");
-				//
+				String content=ta.getText();
+				if(content.trim().isEmpty()) {
+					JOptionPane.showMessageDialog(p,"저장할 내용이없어요");
+					return;
+				}
+				String fileName="c:/myjava/PongList.txt";
+				try {
+					FileWriter fw=new FileWriter(fileName);
+					fw.write(content);
+					fw.flush();
+					fw.close();
+					setTitle(fileName+"에 저장완료!");
+				}catch(IOException ex) {
+					setTitle("파일쓰기중 에러: "+ex.getMessage());
+				}
 			}
 					
 				

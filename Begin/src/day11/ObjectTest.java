@@ -38,7 +38,7 @@ public class ObjectTest {
  		//Object클래스의 equals() 메서드 : 주소값을 비교하여 같으면 true반호나
  		
  		System.out.println("st1.equals(st2)"+st1.equals(st2));//false
- 		System.out.println("st3.equals(st2)"+st3.equals(st2));//truea
+ 		System.out.println("st3.equals(st2)"+st3.equals(st2));//true
  		//st4,st2 비료
  		System.out.println("st2.equals(st4): "+st2.equals(st4));
  		//오버라이드 전에 false라고나옴

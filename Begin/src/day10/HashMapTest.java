@@ -31,6 +31,7 @@ public class HashMapTest {
 			char[] pwd=console.readPassword();
 			//==:기본자료형: 값을비교
 			//	 참조형 :주솟값
+			
 			String realpwd=map.get(userid);
 			//boolean equals(Object o) : String의 경우 문자열의 내용이 같으면 true
 			if (!realpwd.equals(new String(pwd))) {
